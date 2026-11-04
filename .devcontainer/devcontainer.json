@@ -1,0 +1,20 @@
+{
+  "name": "Windows / Linux trên Codespaces (winvm)",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "task.allowAutomaticTasks": "on",
+        "chat.disableAIFeatures": true,
+        "extensions.autoUpdate": false,
+        "telemetry.telemetryLevel": "off"
+      }
+    }
+  },
+  "portsAttributes": {
+    "6080": {
+      "label": "Màn hình máy ảo (noVNC)",
+      "visibility": "private",
+      "onAutoForward": "notify"
+    }
+  }
+}
