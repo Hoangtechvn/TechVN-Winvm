@@ -1,0 +1,16 @@
+# Dữ liệu lớn / nhạy cảm của winvm: KHÔNG commit
+# saoluu.py là file RIÊNG TƯ của admin (sao lưu + ổ ảo admin), không đưa lên repo công khai
+saoluu.py
+*.qcow2
+*.qcow2.part
+*.iso
+*.ISO
+*.part
+rclone.conf
+google_link.txt
+.installed
+.tailscale/
+bin/
+unattend/
+unattend.iso
+__pycache__/
